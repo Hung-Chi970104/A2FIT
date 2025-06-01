@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials | A2FIT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="testimonials.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <div class="logo">
+            <a href="index.html">A2FIT<span class="logo-accent">X</span></a>
+        </div>
+        <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="nav-link">HOME</a></li>
+            <li><a href="index.html#programs" class="nav-link">PROGRAMS</a></li>
+            <li><a href="testimonials.html" class="nav-link">TESTIMONIALS</a></li>
+            <li><a href="index.html#membership" class="nav-link cta-link">JOIN NOW</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="testimonials-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Success Stories</h1>
+                <p class="tagline">REAL PEOPLE. REAL RESULTS.</p>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="programs">
+        <div class="container">
+            <div class="section-accent"></div>
+            <h2 class="section-title">REAL TRANSFORMATIONS</h2>
+            
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="bodybuilding">Bodybuilding</button>
+                <button class="filter-btn" data-filter="hybrid">Hybrid Athlete</button>
+                <button class="filter-btn" data-filter="coaching">1-on-1 Coaching</button>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="featured-testimonial">
+                    <div class="featured-image"></div>
+                    <div class="featured-content">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?q=80" alt="James W.">
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="testimonial-name">James W.</div>
+                                <div class="testimonial-program">Bodybuilding Program</div>
+                            </div>
+                        </div>
+                        <div class="testimonial-quote">
+                            The A2FIT Bodybuilding Program completely changed my approach to fitness. I've tried many programs before, but this one finally gave me the results I was looking for. The detailed workout plans and nutrition guidance made all the difference. In just 12 weeks, I gained 15 pounds of muscle and dropped my body fat by 8%. The coach was responsive whenever I had questions, and the community support kept me motivated.
+                        </div>
+                        <div class="testimonial-stats">
+                            <div class="testimonial-stat">15 lbs Muscle Gained</div>
+                            <div class="testimonial-stat">8% Body Fat Lost</div>
+                            <div class="testimonial-stat">12 Weeks</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-category="hybrid">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80" alt="Sarah M.">
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="testimonial-name">Sarah M.</div>
+                            <div class="testimonial-program">Hybrid Athlete Plan</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-quote">
+                        The Hybrid Athlete Plan was exactly what I needed as a college athlete. It helped me improve my strength for my sport while still keeping me lean and agile. The coach understood exactly what I needed and customized the program perfectly.
+                    </div>
+                    <div class="testimonial-stats">
+                        <div class="testimonial-stat">+25% Strength</div>
+                        <div class="testimonial-stat">Improved Recovery</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-category="bodybuilding">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80" alt="Marcus J.">
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="testimonial-name">Marcus J.</div>
+                            <div class="testimonial-program">Bodybuilding Program</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-quote">
+                        As someone who has always been skinny, I was skeptical about gaining muscle. The Bodybuilding Program proved me wrong. The meal plan was affordable and actually enjoyable to follow, which made all the difference.
+                    </div>
+                    <div class="testimonial-stats">
+                        <div class="testimonial-stat">22 lbs Gained</div>
+                        <div class="testimonial-stat">Bench +85 lbs</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-category="coaching">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80" alt="Emma R.">
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="testimonial-name">Emma R.</div>
+                            <div class="testimonial-program">One-on-One Coaching</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-quote">
+                        The personal coaching from A2FIT was worth every penny. Having someone check in with me weekly and adjust my program based on my progress made all the difference. My coach became like a friend who pushed me to be better.
+                    </div>
+                    <div class="testimonial-stats">
+                        <div class="testimonial-stat">Lost 30 lbs</div>
+                        <div class="testimonial-stat">6 Months</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-category="bodybuilding">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80" alt="David L.">
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="testimonial-name">David L.</div>
+                            <div class="testimonial-program">Bodybuilding Program</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-quote">
+                        I've tried so many workout programs before but always gave up after a few weeks. Something about the A2FIT approach just clicked with me. The structure is perfect, and the results kept me motivated. My biggest win was finally getting visible abs!
+                    </div>
+                    <div class="testimonial-stats">
+                        <div class="testimonial-stat">12% Body Fat</div>
+                        <div class="testimonial-stat">Visible Abs</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-category="hybrid">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://images.unsplash.com/photo-1546961329-78bef0414d7c?q=80" alt="Mia T.">
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="testimonial-name">Mia T.</div>
+                            <div class="testimonial-program">Hybrid Athlete Plan</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-quote">
+                        As a runner who wanted to add strength without compromising my endurance, the Hybrid Athlete Plan was perfect. I was able to increase my strength substantially while still improving my 5k time. The nutrition guidance was especially helpful.
+                    </div>
+                    <div class="testimonial-stats">
+                        <div class="testimonial-stat">Squat +45 lbs</div>
+                        <div class="testimonial-stat">5k Time -2:15</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section">
+        <div class="container">
+            <h2 class="section-title" style="margin-left: auto; margin-right: auto; text-align: center;">BY THE NUMBERS</h2>
+            <div class="results-grid">
+                <div class="result-card">
+                    <div class="result-number">1,500+</div>
+                    <div class="result-label">Successful Clients</div>
+                </div>
+                <div class="result-card">
+                    <div class="result-number">20,000+</div>
+                    <div class="result-label">Pounds Lost</div>
+                </div>
+                <div class="result-card">
+                    <div class="result-number">8,500+</div>
+                    <div class="result-label">Pounds of Muscle Gained</div>
+                </div>
+                <div class="result-card">
+                    <div class="result-number">96%</div>
+                    <div class="result-label">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-heading">Ready for your transformation?</h2>
+            <a href="index.html#membership" class="cta-button">START YOUR JOURNEY TODAY</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">A2FIT<span class="logo-accent">X</span></div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>NAVIGATE</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.html#programs">Programs</a></li>
+                            <li><a href="testimonials.html">Testimonials</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>LEGAL</h4>
+                        <ul>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Refunds</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>CONNECT</h4>
+                        <ul class="social-links">
+                            <li><a href="https://www.instagram.com/a_2fittt?igsh=Y3NwNnJxcTFldWc0&utm_source=qr">Instagram</a></li>
+                            <li><a href="#">YouTube</a></li>
+                            <li><a href="#">TikTok</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>FORGE YOUR BODY. FORGE YOUR MIND. FORGE YOUR FUTURE.</p>
+                <p class="copyright">© 2025 A2FIT. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Navigation toggle
+            const navToggle = document.getElementById('navToggle');
+            const navLinks = document.getElementById('navLinks');
+            
+            navToggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                
+                // Animate hamburger to X
+                const spans = navToggle.querySelectorAll('span');
+                spans.forEach(span => span.classList.toggle('active'));
+                
+                if (navLinks.classList.contains('active')) {
+                    spans[0].style.transform = 'rotate(45deg) translate(6px, 6px)';
+                    spans[1].style.opacity = '0';
+                    spans[2].style.transform = 'rotate(-45deg) translate(6px, -6px)';
+                } else {
+                    spans[0].style.transform = 'none';
+                    spans[1].style.opacity = '1';
+                    spans[2].style.transform = 'none';
+                }
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Close mobile menu if open
+                    if (navLinks.classList.contains('active')) {
+                        navLinks.classList.remove('active');
+                        const spans = navToggle.querySelectorAll('span');
+                        spans[0].style.transform = 'none';
+                        spans[1].style.opacity = '1';
+                        spans[2].style.transform = 'none';
+                        spans.forEach(span => span.classList.remove('active'));
+                    }
+                    
+                    // Scroll to target
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+            
+            // Filtering testimonials
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const testimonialCards = document.querySelectorAll('.testimonial-card');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    btn.classList.add('active');
+                    
+                    // Get filter value
+                    const filter = btn.getAttribute('data-filter');
+                    
+                    // Filter testimonials
+                    testimonialCards.forEach(card => {
+                        if (filter === 'all') {
+                            card.style.display = 'block';
+                        } else {
+                            if (card.getAttribute('data-category') === filter) {
+                                card.style.display = 'block';
+                            } else {
+                                card.style.display = 'none';
+                            }
+                        }
+                    });
+                });
+            });
+            
+            // Reveal animations on scroll
+            const revealElements = document.querySelectorAll('.testimonial-card, .result-card, .featured-testimonial');
+            
+            const revealOnScroll = () => {
+                const windowHeight = window.innerHeight;
+                revealElements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    if (elementTop < windowHeight - 100) {
+                        element.style.opacity = '1';
+                        element.style.transform = 'translateY(0)';
+                    }
+                });
+            };
+            
+            // Set initial state for animations
+            revealElements.forEach(element => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(50px)';
+                element.style.transition = 'all 0.6s ease';
+            });
+            
+            // Add scroll event listener
+            window.addEventListener('scroll', revealOnScroll);
+            
+            // Trigger once on load
+            revealOnScroll();
+        });
+    </script>
+</body>
+</html>
